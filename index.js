@@ -30,7 +30,7 @@ app.use("/api", participantRoutes);
 
 //Testing
 app.use("/", (req, res) => {
-    res.send("Tournament Record Application")
+    res.send(" welcome to Tournament Record Application!!!")
 });
 
 //Initializing the port number
